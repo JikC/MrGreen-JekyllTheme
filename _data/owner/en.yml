@@ -8,7 +8,7 @@ brand: "Your Brand"
 brand_sub_text: "$site_sample"
 
 # used for seo meta post author (if it's not defined in post)
-name: "Your Name"
+name: "Yang Ji"
 
 # home page top header texts
 home:
@@ -49,7 +49,7 @@ meta_common_description: "Your meta description."
 # comment to remove any contact item
 contacts:
   #- github: ""
-  #- email: ""
+  - email: "Yang.Ji20@alumni.xjtlu.edu.cn"
   #- linkedin: ""
   #- twitter: ""
   #- instagram: ""
