@@ -10,22 +10,22 @@ page_data:
   category:
     - title: "Book & Tutorial"
       type: id_book
-      color: "#FFFFCC"
+      color: "#780116"
     - title: "Algorithm Website"
       type: id_algorithm
-      color: "#99CCFF"
+      color: "#F7B538"
     - title: "Dataset"
       type: id_dataset
-      color: "#FFCCCC"
+      color: "#001F54"
     - title: "Medical"
       type: id_medvideo
-      color: "#FFCC99"
+      color: "#0C7C59"
     - title: "Search Paper"
       type: id_spaper
-      color: "#CCCCFF"
+      color: "#E0777D"
     - title: "Tool"
       type: id_tool
-      color: "#FF6666"
+      color: "#B43E8F"
 
 
   list:
