@@ -46,13 +46,9 @@ page_data:
       url: "http://kaiminghe.com/eccv10/"
       info: "Denoise: Guided filter (Kaiming He)."
     - type: id_algorithm
-      title: "Stack OverFlow"
-      url: "https://stackoverflow.com/"
-      info: "Stack Overflow is a question and answer website for professional and enthusiastic programmers."
-    - type: id_algorithm
-      title: "Stack OverFlow"
-      url: "https://stackoverflow.com/"
-      info: "Stack Overflow is a question and answer website for professional and enthusiastic programmers."
+      title: "BM3D"
+      url: "https://webpages.tuni.fi/foi/GCF-BM3D/"
+      info: "Denoise: BM3D."
       
       
     # Dataset
@@ -79,6 +75,10 @@ page_data:
       title: "ASVIDE"
       url: "https://www.asvide.com/"
       info: "Videos of surgical procedures."
+    - type: id_medvideo
+      title: "Olympus"
+      url: "https://www.olympusprofed.com/"
+      info: "Olympus Continuum On-Demand Library."
 
       
       
@@ -91,6 +91,10 @@ page_data:
       title: "academia"
       url: "www.academia.edu"
       info: "Download papers for free."
+    - type: id_spaper
+      title: "IPOL"
+      url: "https://www.ipol.im/pub/"
+      info: "IPOL Journal · Image Processing On Line"
 
 
     # tools
@@ -107,7 +111,7 @@ page_data:
       url: "https://goodfileshare.com/"
       info: "Download pdf of e-books."
     - type: id_tool
-      title: "Good File Share"
-      url: "https://goodfileshare.com/"
-      info: "Download pdf of e-books."
+      title: "Coolors"
+      url: "https://coolors.co/"
+      info: "Random generate color template."
       
