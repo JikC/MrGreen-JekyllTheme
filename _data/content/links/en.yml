@@ -8,48 +8,106 @@ page_data:
 
   # To change order of the Categories, simply change order. (you don't need to change list order.)
   category:
-    - title: "JekyII / Liquid"
-      type: id_jekyiiliquid
-      color: "gray"
-    - title: "Web Design"
-      type: id_webdesign
-      color: "#F4A273"
-    - title: "Programming"
-      type: id_programming
-      color: "#62b462"
+    - title: "Book & Tutorial"
+      type: id_book
+      color: "#FFFFCC"
+    - title: "Algorithm Website"
+      type: id_algorithm
+      color: "#99CCFF"
+    - title: "Dataset"
+      type: id_dataset
+      color: "#FFCCCC"
+    - title: "Medical"
+      type: id_medvideo
+      color: "#FFCC99"
+    - title: "Search Paper"
+      type: id_spaper
+      color: "#CCCCFF"
+    - title: "Tool"
+      type: id_tool
+      color: "#FF6666"
+
 
   list:
-    -
-    # programming
-    - type: id_programming
+      # book
+    - type: id_book
+      title: "Dive into Deep Learning"
+      url: "https://d2l.ai/"
+      info: "Interactive deep learning book with code, math, and discussions. Implemented with PyTorch, NumPy/MXNet, and TensorFlow."
+    - type: id_book
+      title: "OpenMV Embedded image processing (Chinese)"
+      url: "https://book.openmv.cc/"
+      info: "Examples of opencv image processing (powered by Singtown)."
+
+
+    # Algorithm
+    - type: id_algorithm
+      title: "Guided Image Filtering"
+      url: "http://kaiminghe.com/eccv10/"
+      info: "Denoise: Guided filter (Kaiming He)."
+    - type: id_algorithm
       title: "Stack OverFlow"
       url: "https://stackoverflow.com/"
       info: "Stack Overflow is a question and answer website for professional and enthusiastic programmers."
+    - type: id_algorithm
+      title: "Stack OverFlow"
+      url: "https://stackoverflow.com/"
+      info: "Stack Overflow is a question and answer website for professional and enthusiastic programmers."
+      
+      
+    # Dataset
+    - type: id_dataset
+      title: "Laboratory for Image & Video Engineering"
+      url: "https://live.ece.utexas.edu/research/Quality/index.htm"
+      info: "Introduction to Image and Video Quality Assessment. Links to download datasets."
+    - type: id_dataset
+      title: "Xiph.org Video Test Media"
+      url: "https://media.xiph.org/video/derf/"
+      info: "YUV, CIF, video sequences."
+    - type: id_dataset
+      title: "4:2:0 YUV videos"
+      url: "http://trace.eas.asu.edu/yuv/"
+      info: "commonly used video test sequences in the 4:2:0 YUV"
+      
+      
+    # Medical video
+    - type: id_medvideo
+      title: "VideoGIE"
+      url: "https://www.videogie.org/"
+      info: "An official video journal of the American Society for Gastrointestinal Endoscopy."
+    - type: id_medvideo
+      title: "ASVIDE"
+      url: "https://www.asvide.com/"
+      info: "Videos of surgical procedures."
 
-    # jekyiiliquid
-    - type: id_jekyiiliquid
-      title: "Jekyll"
-      url: "https://jekyllrb.com/"
-      info: "Transform your plain text into static websites and blogs."
-    - type: id_jekyiiliquid
-      title: "Jekyll Cheat Sheet"
-      url: "https://cloudcannon.com/community/jekyll-cheat-sheet/"
-      info: "There are so many Jekyll variables and filters to remember and it can be tricky to keep it all in your head. This cheat sheet serves as a quick reference of everything Jekyll can do."
-    - type: id_jekyiiliquid
-      title: "Liquid for Designers"
-      url: "https://github.com/Shopify/liquid/wiki/Liquid-for-Designers"
-      info: "Liquid for Designers wiki on GitHub"
-    - type: id_jekyiiliquid
-      title: "Liquid for Programmers"
-      url: "https://github.com/Shopify/liquid/wiki/Liquid-for-Programmers"
-      info: "Liquid for Programmers wiki on GitHub"
-    - type: id_jekyiiliquid
-      title: "Liquid Reference"
-      url: "https://shopify.dev/api/liquid/"
-      info: "Liquid is a template language created by Shopify and written in Ruby. It is now available as an open source project on GitHub"
+      
+      
+    # Search paper
+    - type: id_spaper
+      title: "ai2news"
+      url: "https://www.ai2news.com/lpaper/"
+      info: "Newest paper browser (Chinese)."
+    - type: id_spaper
+      title: "academia"
+      url: "www.academia.edu"
+      info: "Download papers for free."
 
-    # webdesign
-    - type: id_webdesign
-      title: "W3Schools"
-      url: "https://www.w3schools.com/"
-      info: "W3Schools offers free online tutorials, references and exercises in all the major languages of the web. Covering popular subjects like HTML, CSS, JavaScript, Python, SQL, Java, and many more."
+
+    # tools
+    - type: id_tool
+      title: "favicon"
+      url: "https://realfavicongenerator.net/"
+      info: "The only favicon generator you need for your next project. Quickly generate your favicon from text, image, or choose from hundreds of emojis."
+    - type: id_tool
+      title: "PNG Images"
+      url: "https://pngimg.com/"
+      info: ".png image collection"
+    - type: id_tool
+      title: "Good File Share"
+      url: "https://goodfileshare.com/"
+      info: "Download pdf of e-books."
+    - type: id_tool
+      title: "Good File Share"
+      url: "https://goodfileshare.com/"
+      info: "Download pdf of e-books."
+      
