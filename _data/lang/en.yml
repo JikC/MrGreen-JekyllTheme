@@ -167,9 +167,9 @@ privacy-policy:
 
 # constants to be replaced for
 constants:
-  greetings: 
-  welcome: 
-  sample: 
+  greetings: Hello
+  welcome: Welcome
+  sample: " "
 
 # for cookie consent
 cookie_consent:
