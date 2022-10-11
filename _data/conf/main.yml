@@ -33,7 +33,7 @@ language_translation_offer_disable_ext_translation: false
 # select one below
 # 1. slideBoxTopToDown
 # 2. slideBoxBottomToUp
-language_translation_offer_slide: slideBoxTopToDown
+language_translation_offer_slide: slideBoxBottomToUp
 
 # this uses lng.code + lng.country defined in _data/lang/[language].yml
 # ex; false: en, true: en-US
