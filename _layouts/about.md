@@ -31,4 +31,4 @@ layout: default
 
 # <a href="{{ pdf_file }}" class="image fit">{{ solid_filepdf }}</a>
 
-{% endwith %}
+{% endfor %}
